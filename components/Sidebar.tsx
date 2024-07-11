@@ -11,7 +11,7 @@ const Sidebar = () => {
   const pathname = usePathname();
 
   return (
-    <section className="sticky left-0 top-0 h-screen w-fit flex-col justify-between bg-dark-1 p-6 pt-28 text-white max-sm:hidden lg:w-[264px]">
+    <section className="sticky left-0 top-0 h-screen w-fit flex-col justify-between bg-dark-1 py-5 px-4 pt-28 text-white max-sm:hidden lg:w-[264px]">
         <div className="flex flex-1 flex-col gap-6">
             {sidebarLinks.map((link)=> {  //link here is just a kind of pointer that will move in sidebarlinks code 
                 const isActive = pathname === link.route || pathname.startsWith(`${link.route}/`); 

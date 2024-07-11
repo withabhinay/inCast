@@ -8,7 +8,7 @@ import 'react-datepicker/dist/react-datepicker.css';
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "RecRoom",
+  title: "inCast",
   description: "Record your meet calls",
   icons: {
     icon: "/icons/logo.svg"
@@ -24,7 +24,7 @@ export default function RootLayout({
       <ClerkProvider
         appearance={{
           layout: {
-            logoImageUrl: "/icons/yoom-logo.svg",
+            logoImageUrl: "/icons/yoom-logo.png",
             socialButtonsVariant: "iconButton"
           },
           variables:{

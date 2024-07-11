@@ -30,10 +30,16 @@ const MobileNav = () => {
                     src="/icons/logo.svg"
                     width={32}
                     height={32}
-                    alt="RecRoom logo"
-                    //className='max-sm:size-10'
+                    alt="inCast logo"
+                    className='max-sm:size-10'
                 />
-                <p className="text-[26px] font-extrabold text-white">RecRoom</p>
+                <Image 
+                  src="/icons/yoom-logo.png"
+                  width={90}
+                  height={20}
+                  alt="inCast logo"
+                  className=' pt-2 '
+                />
              </Link>
              <div className="flex h-[calc(100vh-72px)] flex-col justify-between overflow-y-auto">
                  <SheetClose asChild>  
