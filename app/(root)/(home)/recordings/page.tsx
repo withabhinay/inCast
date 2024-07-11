@@ -1,3 +1,4 @@
+import CallList from '@/components/CallList'
 import React from 'react'
 
 const Recording = () => {
@@ -6,6 +7,8 @@ const Recording = () => {
     <h1 className='text-3xl'>
       Recordings
     </h1>
+    <CallList type="recordings" />
+
   </section>
   )
 }
